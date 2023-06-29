@@ -1,0 +1,53 @@
+h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    text-align: center;
+    font-size: 52px;
+    
+}
+
+body{
+   background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #000000; /* Gray border */
+  border-radius: 3px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #4a67e7;
+  color: white;
+  padding: 12px 20px;
+  border: 2px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #000000;
+  border-radius:100px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.g-recaptcha{
+    margin-bottom: 1%;
+}
